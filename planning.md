@@ -36,3 +36,10 @@
  - Total number of interactions that happened in the simulation
  - Number of interactions that resulted in vaccination
  - Number of interactions that resulted in death
+
+
+ How the program works:
+ 1. Run by calling simg.run()
+  - time_step() is called which...
+  - iterates through everyone in self.person_list- list of all people based on pop size, vacc percentage, and initial infected that's created in the initilaizer of simulation.
+    - 

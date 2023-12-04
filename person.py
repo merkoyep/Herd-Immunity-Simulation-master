@@ -15,13 +15,12 @@ class Person(object):
 
     def did_survive_infection(self):
         # return boolean of if person has survived infection
+        # assuming infection is truthy
         if self.infection:
-            mortality_risk = random.random()
-            if self.is_vaccinated or mortality_risk <= self.infection.mortality_rate:
-                self.is_vaccinated = True
+            mortality_risk = random.random() #0-1.0
+            if self.is_vaccinated or mortality_risk >= self.infection.mortality_rate:
                 return True
-            elif mortality_risk > self.infection.mortality_rate:
-                self.is_alive = False
+            else:
                 return False
         else:
             return True

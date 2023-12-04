@@ -1,0 +1,34 @@
+
+    Population: 1000
+    Initial Infected: 500.0
+    Virus: Sniffles 
+        Reproductive Number: 0.5
+        Mortality_rate: 0.12
+    Date of simulation: 12-03-2023
+
+    
+    Step Number: 1
+    New Infections: 380
+    New Deaths: 11
+    Current Population:
+        Alive: 989
+        Deaths: 11
+        Vaccinated: 983
+    
+    Step Number: 2
+    New Infections: 0
+    New Deaths: 0
+    Current Population:
+        Alive: 989
+        Deaths: 11
+        Vaccinated: 989
+    
+---END OF SIMULATION---
+    Total Living: 989
+    Total Dead: 11
+    Number of Vaccinations: 989
+    Reason for end of simulation: Everyone alive is vaccinated.
+    Total Interactions: 55800
+    Total non-infectious: 794
+    Total Infectious Interactions: 380
+                       
